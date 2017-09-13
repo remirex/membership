@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',Arial, sans-serif;
+}
+#header {
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+.wrapper {
+    width: 960px;
+    margin: 20px auto;
+}
+#reg_form {
+    float: left;
+    margin-right: 60px;
+    width: 400px;
+    padding: 25px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+#reg_form span {
+    color: red;
+}
+#reg_form h1 {
+    color: gray;
+    text-align: center;
+}
+label {
+    color: gray;
+    font-weight: bold;
+}
+input[type=text],input[type=email],input[type=password] {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+input[type=submit] {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: green;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+#log_form {
+    float: left;
+    width: 400px;
+    padding: 25px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+#log_form span {
+    color: red;
+}
+#log_form h1 {
+    color: gray;
+    text-align: center;
+}
+a {
+    display: block;
+    text-align: center;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+    color: green;
+}
+a:hover {
+    text-decoration: underline;
+    color: darkgreen;
+}
+a:active {
+    color: gray;
+}
+.message {
+    background-color: lightgray;
+    margin: auto;
+    color: gray;
+    width: 450px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+.message button {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: green;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+#error {
+    color: red;
+}
+#succes {
+    color:green
+}
+#forgot {
+    background-color: lightgray;
+    margin: auto;
+    color: gray;
+    width: 450px;
+    padding: 25px;
+    border-radius: 5px;
+}
+#forgot span {
+    color: red;
+}
+#forgot h1 {
+    text-align: center;
+}
+#reset {
+    background-color: lightgray;
+    margin: auto;
+    color: gray;
+    width: 450px;
+    padding: 25px;
+    border-radius: 5px;
+}
+#reset span {
+    color: red;
+}
+#reset h1 {
+    text-align: center;
+}
+#profile {
+    width: 600px;
+    background-color: lightgray;
+    color: gray;
+    padding: 25px;
+    margin: 30px;
+}

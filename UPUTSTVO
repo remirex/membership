@@ -1,0 +1,3 @@
+Ukoliko mail f-ja ne radi,ručno uneti sl podatke u URL:
+Za verifikaciju localhost/verify.php?email=example@example.com&verify=iz kolone verify,tabela users
+Za reset password-a localhost/reset.php?email=example@example.com&token= iz kolone token,tabela users
